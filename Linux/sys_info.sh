@@ -1,6 +1,23 @@
 #!/bin/bash
 
-echo "System Audit Script: $(date)"
-echo "You are using a $(uname) machine!"
-echo "The current IP is $(hostname -I)"
-echo "You are currently using the $(hostname)"
+uname
+
+hostname -I | awk '{print $1}'
+
+hostname
+
+echo -e "DNS \n"
+grep "nameserver" /etc/resolv.conf
+
+echo -e  "Memory: \n"
+free
+
+echo -e "CPU: \n"
+lscpu
+
+echo -e "DISK USAGE \n"
+df
+
+echo -e "ACTIVE USER \n"
+
+users
