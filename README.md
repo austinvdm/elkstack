@@ -96,6 +96,8 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include the group with the machine IPs you want to install the elk container on.
 - Run the playbook, and navigate to HTTP://(ELKserverIP):5601/app/kibana to check that the installation worked as expected.
 
+![](Images/kibana2.png)
+
 Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it?
   - The file for the Filebeat playbook is filebeat-playbook.yml and is copied to the /etc/filebeat directory. The file for the Metricbeat playbook is metricbeat-playbook.yml and is copied to the /etc/metricbeat directory.
@@ -105,4 +107,5 @@ Answer the following questions to fill in the blanks:_
 - Which URL do you navigate to in order to check that the ELK server is running?
   - HTTP://(ELKserverIP):5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+### Commands the user will need to run to download the playbook, update the files, etc.:
+
