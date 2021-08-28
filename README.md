@@ -98,7 +98,6 @@ SSH into the control node and follow the steps below:
 
 ![](Images/kibana2.png)
 
-Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it?
   - The file for the Filebeat playbook is filebeat-playbook.yml and is copied to the /etc/filebeat directory. The file for the Metricbeat playbook is metricbeat-playbook.yml and is copied to the /etc/metricbeat directory.
 
