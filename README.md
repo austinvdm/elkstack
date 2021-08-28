@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](Diagrams/ElkStack_VNets.png)
+![](Diagrams/elkstack_diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -106,6 +106,4 @@ Answer the following questions to fill in the blanks:_
   - You update the /etc/ansible/hosts file to make Ansible run on a specific machine. You update each playbook file and edit the hosts line to specify what machines that specific playbook file runs on.
 - Which URL do you navigate to in order to check that the ELK server is running?
   - HTTP://(ELKserverIP):5601/app/kibana
-
-### Commands the user will need to run to download the playbook, update the files, etc.:
 
