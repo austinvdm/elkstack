@@ -54,9 +54,9 @@ A summary of the access policies in place can be found in the table below.
 | Name       | Publicly Accessible  | Allowed IP Addresses |
 |------------|----------------------|----------------------|
 | Jump Box   | Yes                  | Personal IP          |
-| Web-1      | Yes via Load Balancer| LB: 168.61.41.173    |
-| Web-2      | Yes via Load Balancer| LB: 168.61.41.173    |
-| Elk Server | Yes                  | 168.61.41.173        |
+| Web-1      | No                   | LB: 168.61.41.173    |
+| Web-2      | No                   | LB: 168.61.41.173    |
+| Elk Server | No                   | 168.61.41.173        |
 
 
 ### Elk Configuration
