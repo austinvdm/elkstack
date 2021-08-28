@@ -1,9 +1,9 @@
 #!/bin/bash
 
 Fav_States=(
+	Montana
 	Texas
-	Florida
-	Georgia
 	Utah
+	Idaho
 	Pennsylvania
 )
